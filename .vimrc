@@ -70,6 +70,7 @@ set number
 set cursorline
 set list
 set listchars=trail:·
+set colorcolumn=80
 
 """""""""""""""""
 " YouCompleteMe "
