@@ -72,6 +72,11 @@ set list
 set listchars=trail:·
 set colorcolumn=80
 
+"""""""""""""""""""""
+" hot keys settings "
+"""""""""""""""""""""
+set backspace=indent,eol,start
+
 """""""""""""""""
 " YouCompleteMe "
 """""""""""""""""
