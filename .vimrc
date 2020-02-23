@@ -15,6 +15,7 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'ycm-core/YouCompleteMe.git'
 Plugin 'morhetz/gruvbox'
 Plugin 'itchyny/vim-cursorword'
+Plugin 'fatih/vim-go'
 
 " " The following are examples of different formats supported.
 " " Keep Plugin commands between vundle#begin/end.
