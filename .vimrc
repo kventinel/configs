@@ -73,6 +73,7 @@ set cursorline
 set list
 set listchars=trail:·
 set colorcolumn=80
+set wildmenu wildmode=longest,list " Unix-like tab behaviour
 
 """""""""""""""""""""
 " hot keys settings "
