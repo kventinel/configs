@@ -84,3 +84,9 @@ set backspace=indent,eol,start
 " YouCompleteMe "
 """""""""""""""""
  let g:ycm_global_ycm_extra_conf = '~/.vim/bundle/YouCompleteMe/third_party/ycmd/.ycm_extra_conf.py'
+
+""""""""""""""""
+" Golang       "
+""""""""""""""""
+let g:go_def_mode='gopls'
+let g:go_info_mode='gopls'
