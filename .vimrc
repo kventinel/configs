@@ -16,6 +16,8 @@ Plugin 'ycm-core/YouCompleteMe.git'
 Plugin 'morhetz/gruvbox'
 Plugin 'itchyny/vim-cursorword'
 Plugin 'fatih/vim-go'
+Plugin 'jceb/vim-orgmode.git'
+Plugin 'tpope/vim-speeddating.git'
 
 " " The following are examples of different formats supported.
 " " Keep Plugin commands between vundle#begin/end.
