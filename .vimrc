@@ -18,6 +18,7 @@ Plugin 'itchyny/vim-cursorword'
 Plugin 'fatih/vim-go'
 Plugin 'jceb/vim-orgmode.git'
 Plugin 'tpope/vim-speeddating.git'
+Plugin 'vim-syntastic/syntastic.git'
 
 " " The following are examples of different formats supported.
 " " Keep Plugin commands between vundle#begin/end.
