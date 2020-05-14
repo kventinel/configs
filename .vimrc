@@ -97,4 +97,4 @@ let g:go_info_mode='gopls'
 """"""""""""""""
 " Syntastic    "
 """"""""""""""""
-let g:syntastic_python_python_exe = 'python3'
+let g:syntastic_python_python_exec = 'python3'
