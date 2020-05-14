@@ -93,3 +93,8 @@ set backspace=indent,eol,start
 """"""""""""""""
 let g:go_def_mode='gopls'
 let g:go_info_mode='gopls'
+
+""""""""""""""""
+" Syntastic    "
+""""""""""""""""
+let g:syntastic_python_python_exe = 'python3'
