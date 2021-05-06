@@ -2,5 +2,12 @@
 __pycache__
 .ipynb_checkpoints
 
+# C++ trash
+*.out
+*.dSYM
+
 # Vim
 *.swp
+
+# Log data
+*.log
