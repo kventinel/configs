@@ -1,0 +1,8 @@
+{
+    "editor.rulers": [80],
+    "python.linting.pylintArgs": [
+        "--init-hook",
+        "import sys; sys.path.insert(0, './')",
+        "--generated-members=torch.*"
+    ]
+}
