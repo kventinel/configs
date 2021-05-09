@@ -5,6 +5,8 @@
     "python.linting.pylintArgs": [
         "--init-hook",
         "import sys; sys.path.insert(0, './')",
-        "--generated-members=torch.*"
+        "--generated-members=torch.*",
+        "--disable=wrong-import-position",
+        "--disable=invalid-name"
     ]
 }
