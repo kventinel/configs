@@ -8,6 +8,9 @@
         "--generated-members=torch.*",
         "--disable=wrong-import-position",
         "--disable=invalid-name",
-        "--disable=too-many-arguments"
+        "--disable=too-many-arguments",
+        "--disable=missing-module-docstring",
+        "--disable=missing-class-docstring",
+        "--disable=missing-function-docstring"
     ]
 }
