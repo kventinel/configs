@@ -12,5 +12,32 @@
         "--disable=missing-module-docstring",
         "--disable=missing-class-docstring",
         "--disable=missing-function-docstring"
+    ],
+    "latex-workshop.latex.recipes": [
+        {
+          "name": "pdflatex ➞ biber ➞ pdflatex`×2",
+          "tools": [
+            "pdflatex",
+            "biber",
+            "pdflatex",
+            "pdflatex"
+          ]
+        }
+    ],
+    "latex-workshop.latex.tools": [
+        {
+            "name": "biber",
+            "command": "biber",
+            "args": [
+                "%DOCFILE%"
+            ]
+        },
+        {
+            "name": "pdflatex",
+            "command": "pdflatex",
+            "args": [
+                "%DOCFILE%"
+            ]
+        }
     ]
 }
