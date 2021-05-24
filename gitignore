@@ -11,3 +11,6 @@ __pycache__
 
 # Log data
 *.log
+
+# System stuff
+.DS_Store
