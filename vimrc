@@ -15,6 +15,7 @@ set smarttab
 " silent colorscheme gruvbox
 " colo gruvbox
 colorscheme gruvbox
+set term=xterm-256color
 set termguicolors  " help in some cases, but make worse in other
 syntax enable
 set background=dark
