@@ -4,6 +4,10 @@ sudo apt install -y \
     zsh \
     python3-pip \
     git-lfs
+pip3 install --upgrade \
+    streamlit \
+    torch \
+    torchvision
 git clone https://github.com/VundleVim/Vundle.vim.git $HOME/.vim/bundle/Vundle.vim
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 mkdir $HOME/.ssh
