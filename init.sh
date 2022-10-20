@@ -2,7 +2,8 @@ sudo apt update
 sudo apt full-upgrade -y
 sudo apt install -y \
     zsh \
-    python3-pip
+    python3-pip \
+    git-lfs
 git clone https://github.com/VundleVim/Vundle.vim.git $HOME/.vim/bundle/Vundle.vim
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 mkdir $HOME/.ssh
