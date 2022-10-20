@@ -11,3 +11,4 @@ cp tmux.conf $HOME/.tmux.conf
 cp zprofile $HOME/.zprofile
 cp vimrc-full $HOME/.vimrc
 cp ssh/rc $HOME/.ssh/rc
+vim +PluginInstall +qall
