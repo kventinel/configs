@@ -1,3 +1,4 @@
+#!/bin/sh 
 DIR=$(dirname ${BASH_SOURCE[0]})
 sudo apt update
 sudo apt full-upgrade -y
