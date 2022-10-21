@@ -11,11 +11,14 @@ sudo apt install -y \
     zsh
 sudo apt autoremove
 sudo pip3 install --upgrade pip
+# Sometimes we have problem with TF if we have old fllatbuffers
+sudo pip3 uninstall flatbuffers
 # PyYAML has problem with deleting cause by distutils
 sudo pip3 install --upgrade --ignore-installed PyYAML
 sudo pip3 install --upgrade --extra-index-url https://download.pytorch.org/whl/cpu \
     clip \
     einops \
+    flatbuffers \
     ipython \
     jinja2 \
     kornia \
