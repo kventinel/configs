@@ -11,6 +11,8 @@ sudo apt install -y \
     zsh
 sudo apt autoremove
 sudo pip3 install --upgrade pip
+# PyYAML has problem with deleting cause by distutils
+sudo pip3 install --upgrade --ignore-installed PyYAML
 sudo pip3 install --upgrade --extra-index-url https://download.pytorch.org/whl/cpu \
     clip \
     einops \
