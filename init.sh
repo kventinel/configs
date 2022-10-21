@@ -1,3 +1,5 @@
+SOURCE=${BASH_SOURCE[0]}
+DIR=$(dirname $SOURCE)
 sudo apt update
 sudo apt full-upgrade -y
 sudo apt install -y \
@@ -34,11 +36,11 @@ pip3 install --upgrade --extra-index-url https://download.pytorch.org/whl/cpu \
 git clone https://github.com/VundleVim/Vundle.vim.git $HOME/.vim/bundle/Vundle.vim
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 mkdir $HOME/.ssh
-cp tmux.conf $HOME/.tmux.conf
-cp profile-full-zsh $HOME/.profile
-cp zprofile $HOME/.zprofile
-cp vimrc-full $HOME/.vimrc
-cp ssh/rc $HOME/.ssh/rc
+cp $DIR/tmux.conf $HOME/.tmux.conf
+cp $DIR/profile-full-zsh $HOME/.profile
+cp $DIR/zprofile $HOME/.zprofile
+cp $DIR/vimrc-full $HOME/.vimrc
+cp $DIR/ssh/rc $HOME/.ssh/rc
 vim +PluginInstall +qall
 git config --global user.email "kventinel@gmail.com"
 git config --global user.name "Aliaksei Rak"
