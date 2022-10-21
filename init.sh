@@ -13,7 +13,6 @@ sudo apt autoremove
 pip3 install --upgrade pip
 pip3 install --upgrade --extra-index-url https://download.pytorch.org/whl/cpu \
     clip \
-    diffusers \
     einops \
     invisible-watermark \
     ipython \
