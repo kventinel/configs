@@ -22,10 +22,12 @@ sudo pip3 install --upgrade --extra-index-url https://download.pytorch.org/whl/c
     ipython \
     jinja2 \
     kornia \
+    mypy \
     numpy \
     omegaconf \
     onnx \
     onnx_tf \
+    pylint \
     pytorch_lightning \
     streamlit \
     taming-transformers-rom1504 \
