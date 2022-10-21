@@ -1,5 +1,11 @@
 {
     "editor.rulers": [100],
+    "remote.SSH.defaultExtensions": [
+        "ms-vscode.cpptools-themes",
+        "ms-python.python",
+        "ms-python.vscode-pylance",
+        "eamodio.gitlens"
+    ],
     "python.linting.pylintEnabled": true,
     "python.linting.mypyEnabled": true,
     "python.linting.pylintArgs": [
