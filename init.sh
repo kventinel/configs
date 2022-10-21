@@ -23,7 +23,6 @@ pip3 install --upgrade --extra-index-url https://download.pytorch.org/whl/cpu \
     onnx_tf \
     pytorch_lightning \
     streamlit \
-    streamlit_drawable_canvas \
     taming-transformers-rom1504 \
     torch \
     torchaudio \
@@ -31,9 +30,11 @@ pip3 install --upgrade --extra-index-url https://download.pytorch.org/whl/cpu \
     tensorflow-cpu \
     tensorflow_probability \
     transformers
+# With next libs problem in yandex pypi repo
 pip3 install --upgrade \
     diffusers \
-    invisible-watermark
+    invisible-watermark \
+    streamlit_drawable_canvas
 git clone https://github.com/VundleVim/Vundle.vim.git $HOME/.vim/bundle/Vundle.vim
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 mkdir $HOME/.ssh
