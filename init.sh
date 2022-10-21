@@ -1,5 +1,4 @@
-SOURCE=${BASH_SOURCE[0]}
-DIR=$(dirname $SOURCE)
+DIR=$(dirname ${BASH_SOURCE[0]})
 sudo apt update
 sudo apt full-upgrade -y
 sudo apt install -y \
