@@ -4,22 +4,32 @@ sudo apt install -y \
     git-lfs \
     libgl-dev \
     python3-pip \
+    tmux \
+    vim \
     zsh
-pip3 install --upgrade \
+sudo apt autoremove
+pip3 install --upgrade pip
+pip3 install --upgrade --extra-index-url https://download.pytorch.org/whl/cpu \
     clip \
     diffusers \
     einops \
     invisible-watermark \
+    ipython \
     jinja2 \
     kornia \
     numpy \
     omegaconf \
+    onnx \
+    onnx_tf \
     pytorch_lightning \
     streamlit \
     streamlit_drawable_canvas \
     taming-transformers-rom1504 \
     torch \
+    torchaudio \
     torchvision \
+    tensorflow-cpu \
+    tensorflow_probability \
     transformers
 git clone https://github.com/VundleVim/Vundle.vim.git $HOME/.vim/bundle/Vundle.vim
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
