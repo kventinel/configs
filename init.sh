@@ -14,7 +14,6 @@ pip3 install --upgrade pip
 pip3 install --upgrade --extra-index-url https://download.pytorch.org/whl/cpu \
     clip \
     einops \
-    invisible-watermark \
     ipython \
     jinja2 \
     kornia \
@@ -32,6 +31,9 @@ pip3 install --upgrade --extra-index-url https://download.pytorch.org/whl/cpu \
     tensorflow-cpu \
     tensorflow_probability \
     transformers
+pip3 install --upgrade \
+    diffusers \
+    invisible-watermark
 git clone https://github.com/VundleVim/Vundle.vim.git $HOME/.vim/bundle/Vundle.vim
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 mkdir $HOME/.ssh
