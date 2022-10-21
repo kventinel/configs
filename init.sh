@@ -10,8 +10,8 @@ sudo apt install -y \
     vim \
     zsh
 sudo apt autoremove
-pip3 install --upgrade pip
-pip3 install --upgrade --extra-index-url https://download.pytorch.org/whl/cpu \
+sudo pip3 install --upgrade pip
+sudo pip3 install --upgrade --extra-index-url https://download.pytorch.org/whl/cpu \
     clip \
     einops \
     ipython \
@@ -31,7 +31,7 @@ pip3 install --upgrade --extra-index-url https://download.pytorch.org/whl/cpu \
     tensorflow_probability \
     transformers
 # With next libs problem in yandex pypi repo
-pip3 install --upgrade \
+sudo pip3 install --upgrade \
     diffusers \
     invisible-watermark \
     streamlit_drawable_canvas
